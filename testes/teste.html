@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
   <title>Shoes Store</title>
 </head>
 
@@ -38,11 +38,9 @@
               <a href="#">Formula1</a>
             </li>
           </ul>
-
         </li>
         <li>
           Produtos
-
           <ul class="submenu">
             <li>
               <a href="#">FBolsa de valores</a>
@@ -58,81 +56,59 @@
       </ul>
       <div class="clear"></div>
     </nav>
-
   </header>
+  
   <div class="container conteudo">
     <main>
-          <section class="destaque">
-                <h2>Sobre a loja </h2>
-                
-             <article class="noticia">
-                <a href="#">
-                  <img src="images/FOTO01.jpg" alt="">
-                  <h3>
-                    
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim quas aliquam incidunt, iure cumque exercitationem illum hic magni? Ullam.
-                  </h3>
-                </a>
-            </article>
-
-            
-          </section>
-          <section>
-            <h2>Produtos</h2>
-           <div class="noticias">
-            <article class="noticia">
-              <a href="#">
-                <img src="images/foto02.jpg" alt="">
-                <h3>
-                  
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim quas aliquam 
-                </h3>
-              </a>
-          </article>
-           <article class="noticia">
+      <section class="sobre-loja">
+        <h2>Sobre a loja</h2>
+        <div class="loja-content">
+          <img src="https://via.placeholder.com/320x320" alt="">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim quas aliquam incidunt, iure cumque exercitationem illum hic magni? Ullam.
+          </p>
+        </div>
+      </section>
+      
+      <section class="produtos">
+        <h2>Produtos</h2>
+        <div class="noticias">
+          <article class="noticia">
             <a href="#">
-              <img src="images/foto03.jpg" alt="">
+              <img src="https://via.placeholder.com/320x320" alt="">
               <h3>
-                
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim quas aliquam 
               </h3>
             </a>
-        </article> 
-        <article class="noticia">
-          <a href="#">
-            <img src="images/foto04.jpg" alt="">
-            <h3>
-              
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim quas aliquam 
-            </h3>
-          </a>
-      </article>
-       <article class="noticia">
-        <a href="#">
-          <img src="images/foto05.jpg" alt="">
-          <h3>
-            
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim quas aliquam incidunt, iure cumque exercitationem illum hic magni? Ullam.
-          </h3>
-        </a>
-    </article>
-           </div>
-          </section>
+          </article>
+          <article class="noticia">
+            <a href="#">
+              <img src="https://via.placeholder.com/320x320" alt="">
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim quas aliquam 
+              </h3>
+            </a>
+          </article>
+          <article class="noticia">
+            <a href="#">
+              <img src="https://via.placeholder.com/320x320" alt="">
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim quas aliquam 
+              </h3>
+            </a>
+          </article>
+        </div>
+      </section>
     </main>
-         
-
-
-           
   </div>
+
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script>
     $(document).ready(function(){
       $('.botao-menu').click(function(){
-          $('.menu').slideToggle();
+        $('.menu').slideToggle();
       })
-
     })
   </script>
 </body>
-
 </html>
